@@ -1,21 +1,21 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  target: "static",
+  target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: "Malik - Building digital respectfully & beautifully",
+    title: 'Malik - Building digital respectfully & beautifully',
     htmlAttrs: {
-      lang: "en",
+      lang: 'en',
     },
     meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" },
-      { name: "format-detection", content: "telephone=no" },
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: '' },
+      { name: 'format-detection', content: 'telephone=no' },
       {
-        hid: "description",
-        name: "description",
+        hid: 'description',
+        name: 'description',
         content:
           "Digital is now the heart of our lives, so let's try to improve it respectfully and beautifully. My personal blog deals with the topics of web design, web development HTML, CSS, TailwindCSS and many other areas.",
       },
@@ -23,65 +23,65 @@ export default {
        * Open Graph
        */
       {
-        property: "og:site_name",
-        content: "Malik - Building digital respectfully & beautifully",
+        property: 'og:site_name',
+        content: 'Malik - Building digital respectfully & beautifully',
       },
-      { hid: "og:type", property: "og:type", content: "website" },
+      { hid: 'og:type', property: 'og:type', content: 'website' },
       {
-        hid: "og:url",
-        property: "og:url",
-        content: "https://maliksvd.dev",
-      },
-      {
-        hid: "og:image",
-        content: "/default.png",
-        property: "og:image",
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://maliksvd.dev',
       },
       {
-        hid: "og:title",
-        property: "og:title",
-        content: "Malik - Building digital respectfully & beautifully",
+        hid: 'og:image',
+        content: '/default.png',
+        property: 'og:image',
       },
       {
-        hid: "og:description",
-        property: "og:description",
+        hid: 'og:title',
+        property: 'og:title',
+        content: 'Malik - Building digital respectfully & beautifully',
+      },
+      {
+        hid: 'og:description',
+        property: 'og:description',
         content:
           "Digital is now the heart of our lives, so let's try to improve it respectfully and beautifully. My personal blog deals with the topics of web design, web development HTML, CSS, TailwindCSS and many other areas.",
       },
-      { property: "og:image:width", content: "740" },
-      { property: "og:image:height", content: "300" },
+      { property: 'og:image:width', content: '740' },
+      { property: 'og:image:height', content: '300' },
       /**
        * Twitter Card
        */
-      { name: "twitter:site", content: "@maliksvd" },
-      { name: "twitter:card", content: "summary_large_image" },
+      { name: 'twitter:site', content: '@maliksvd' },
+      { name: 'twitter:card', content: 'summary_large_image' },
       {
-        hid: "twitter:url",
-        name: "twitter:url",
-        content: "https://maliksvd.dev",
+        hid: 'twitter:url',
+        name: 'twitter:url',
+        content: 'https://maliksvd.dev',
       },
       {
-        hid: "twitter:title",
-        name: "twitter:title",
-        content: "Malik - Building digital respectfully & beautifull",
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Malik - Building digital respectfully & beautifull',
       },
       {
-        hid: "twitter:description",
-        name: "twitter:description",
+        hid: 'twitter:description',
+        name: 'twitter:description',
         content:
           "Digital is now the heart of our lives, so let's try to improve it respectfully and beautifully. My personal blog deals with the topics of web design, web development HTML, CSS, TailwindCSS and many other areas.",
       },
       {
-        hid: "twitter:image",
-        name: "twitter:image",
-        content: "/default.png",
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: '/default.png',
       },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon/favicon.ico" }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ["@/assets/css/main.css"],
+  css: ['@/assets/css/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -90,22 +90,23 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ["@nuxt/postcss8", "@nuxtjs/google-fonts"],
+  buildModules: ['@nuxt/postcss8', '@nuxtjs/google-fonts'],
 
   googleFonts: {
+    display: 'swap',
     families: {
       Outfit: true,
     },
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@nuxt/content"],
+  modules: ['@nuxt/content'],
 
   content: {
     liveEdit: false,
     markdown: {
       prism: {
-        theme: "prism-themes/themes/prism-dracula.css",
+        theme: 'prism-themes/themes/prism-dracula.css',
       },
     },
   },
@@ -119,4 +120,4 @@ export default {
       },
     },
   },
-};
+}

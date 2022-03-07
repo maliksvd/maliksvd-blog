@@ -3,7 +3,9 @@
     <NuxtLink to="/" class="focus:outline-none"
       ><img
         src="/avatar.jpeg"
-        alt=""
+        width="64"
+        height="64"
+        alt="Avatar of maliksvd.dev"
         class="animate-pulse duration-75 ease-out rounded-full w-16 h-16"
     /></NuxtLink>
     <div class="flex itens-center space-x-8">

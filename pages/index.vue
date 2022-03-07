@@ -28,7 +28,7 @@
         </div>
       </NuxtLink>
     </div>
-    <NuxtLink to="/articles" class="my-12 text-neutral-600">
+    <NuxtLink to="/articles" class="my-12 text-neutral-400">
       Read more articles
     </NuxtLink>
   </section>
@@ -36,15 +36,15 @@
 
 <script>
 export default {
-  name: "IndexPage",
-  layout: "default",
+  name: 'IndexPage',
+  layout: 'default',
   async asyncData({ $content, params }) {
-    const articles = await $content("articles")
-      .sortBy("createdAt", "desc")
-      .fetch();
+    const articles = await $content('articles')
+      .sortBy('createdAt', 'desc')
+      .fetch()
     return {
       articles,
-    };
+    }
   },
-};
+}
 </script>
