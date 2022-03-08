@@ -82,12 +82,12 @@ export default {
         {
           hid: 'twitter:image',
           name: 'twitter:image',
-          content: 'https://www.maliksvd.dev/uploads' + this.article.banner,
+          content: this.article.banner,
         },
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'https://www.maliksvd.dev/uploads' + this.article.banner,
+          content: this.article.banner,
         },
         {
           property: 'article:published_time',
