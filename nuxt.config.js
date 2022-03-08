@@ -5,6 +5,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Malik - Building digital respectfully & beautifully',
+    titleTemplate: '%s - maliksvd.dev',
     htmlAttrs: {
       lang: 'en',
     },
