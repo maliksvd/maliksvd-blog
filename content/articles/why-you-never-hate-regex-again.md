@@ -3,8 +3,8 @@ title: Why you never hate Regex again
 description: Regular expressions are very powerful tools for creating string patterns,
   but this one is sometimes difficult to understand. Here is why you won't hate it
   anymore.
-createdAt: 2022-03-08T05:00:00Z
-banner: "/uploads/regex.png"
+createdAt: 2022-03-08T05:00:00.000+00:00
+banner: "/images/regex.png"
 tags:
 - Tools
 - Regex
