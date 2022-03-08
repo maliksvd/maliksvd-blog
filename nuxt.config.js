@@ -49,6 +49,11 @@ export default {
         content:
           "Digital is now the heart of our lives, so let's try to improve it respectfully and beautifully. My personal blog deals with the topics of web design, web development HTML, CSS, TailwindCSS and many other areas.",
       },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content: 'https://www.maliksvd.dev/images/default.png',
+      },
       { property: 'og:image:width', content: '740' },
       { property: 'og:image:height', content: '300' },
       /**
@@ -75,7 +80,7 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: '/default.png',
+        content: 'https://www.maliksvd.dev/images/default.png',
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon/favicon.ico' }],
