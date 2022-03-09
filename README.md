@@ -1,6 +1,6 @@
 # maliksvd-blog
 
-![maliksvd.dev banner](/images/readme-cover.png)
+![maliksvd.dev banner](/static/images/readme-cover.png)
 
 A personal blog with articles and code snippets about web development, UI/UX Design. Proudly build with NuxtJS and TailwindCSS.
 
