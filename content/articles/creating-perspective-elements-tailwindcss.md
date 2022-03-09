@@ -1,11 +1,14 @@
 ---
 title: Creating perspective elements on Tailwind CSS
-description: With Tailwind CSS, you can use perspectives, to get this result, I demonstrate this process.
-createdAt: "2021-05-06"
+description: With Tailwind CSS, you can use perspectives, to get this result, I demonstrate
+  this process.
+createdAt: 2021-05-06
 banner: "/default.png"
 tags:
-  - Tailwind CSS
+- Tailwind CSS
+
 ---
+> ⚠️ Note that @kamona/tailwindcss-perspective works only in `jit` mode and not compatible with `tailwindcss v3` yet
 
 With Tailwind CSS, you can use perspectives like the one applied in the demo, to easily create 3D depth in websites, without having to change writing in any way. Perspective elements in Tailwind CSS are separate in their style sheet, allowing you to easily change them to taste.
 
