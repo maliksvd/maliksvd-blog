@@ -96,21 +96,13 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: [
-    '@nuxt/postcss8',
-    '@nuxtjs/google-fonts',
-    '@nuxtjs/google-analytics',
-  ],
+  buildModules: ['@nuxt/postcss8', '@nuxtjs/google-fonts'],
 
   googleFonts: {
     display: 'swap',
     families: {
       Outfit: true,
     },
-  },
-
-  googleAnalytics: {
-    id: 'UA-222264821-1',
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
