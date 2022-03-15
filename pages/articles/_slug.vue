@@ -14,7 +14,7 @@
       </div>
       <nuxt-content
         :document="article"
-        class="prose prose-xl prose-img:rounded-xl prose-a:text-indigo-500"
+        class="prose prose-2xl max-w-none prose-img:rounded-xl prose-a:text-indigo-500"
       />
     </article>
   </section>

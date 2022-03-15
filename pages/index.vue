@@ -5,7 +5,6 @@
       <p class="text-[#999999] font-normal text-3xl">
         A personal part of Internet deals with web design and web development.
       </p>
-      <NuxtLink to="/about" class="relative text-2xl text-white py-4">Read about</NuxtLink>
     </section>
     <section>
       <NuxtLink to="/articles" class="text-white font-medium text-3xl">Articles </NuxtLink>
@@ -57,6 +56,7 @@
           <span>Email</span></a
         >
         <a
+          href="https://github.com/maliksvd"
           class="text-white bg-[#161616] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
           ><svg
             width="24"
@@ -81,6 +81,7 @@
           ><span>GitHub</span></a
         >
         <a
+          href="https://twitter.com/maliksvd"
           class="text-white bg-[#161616] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
           ><svg
             width="24"
@@ -100,6 +101,7 @@
           <span>Twitter</span></a
         >
         <a
+          href="https://www.figma.com/@maliksvd"
           class="text-white bg-[#161616] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
           ><svg
             width="24"
