@@ -35,7 +35,7 @@ export default {
       },
       {
         hid: 'og:image',
-        content: '/default.png',
+        content: '/images/default.png',
         property: 'og:image',
       },
       {
