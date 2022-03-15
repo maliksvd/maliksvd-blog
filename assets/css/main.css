@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 body {
-  background-color: black;
-  font-family: "Outfit", sans-serif;
+  @apply bg-[#0D0407];
 }

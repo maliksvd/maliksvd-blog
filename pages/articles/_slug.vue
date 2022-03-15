@@ -1,22 +1,20 @@
 <template>
   <section>
     <article>
-      <div class="max-w-3xl mx-auto space-y-6 py-24 text-center">
-        <h1
-          class="md:leading-14 text-3xl font-extrabold leading-9 tracking-tight text-gray-100 sm:text-4xl sm:leading-10 md:text-5xl"
-        >
+      <div class="space-y-6 md:space-y-12 py-32 text-left">
+        <h1 class="text-4xl text-white md:text-6xl">
           {{ article.title }}
         </h1>
-        <p class="text-xl font-medium leading-6 text-gray-400">
+        <p class="text-xl md:text-3xl text-white">
           Published on {{ formatDate(article.updatedAt) }}
         </p>
-        <p class="text-2xl text-gray-100">
+        <p class="text-xl md:text-3xl text-white">
           {{ article.description }}
         </p>
       </div>
       <nuxt-content
         :document="article"
-        class="prose-dark prose-2xl max-w-5xl mx-auto pt-10 pb-8"
+        class="prose prose-xl prose-img:rounded-xl prose-a:text-indigo-500"
       />
     </article>
   </section>
@@ -117,26 +115,7 @@ export default {
 </script>
 
 <style>
-.nuxt-content li {
-  @apply text-neutral-200;
-}
-.nuxt-content h2 {
-  @apply text-3xl font-bold underline text-neutral-200;
-}
-
-.nuxt-content h2 > a {
-  @apply bg-transparent mx-0 px-0 py-0;
-}
-.nuxt-content h1 {
-  @apply text-3xl font-bold text-neutral-200;
-}
-.nuxt-content p {
-  @apply text-neutral-200 font-normal;
-}
-.nuxt-content a {
-  @apply bg-[#13A0FA] mx-2 px-6 py-2 rounded-2xl text-neutral-200 hover:rotate-90 duration-500 ease-in;
-}
 pre[class*='language-'] {
-  @apply bg-black border-4 rounded-2xl border-neutral-900;
+  @apply bg-[#161616]  rounded-lg text-[#eaf5ea];
 }
 </style>

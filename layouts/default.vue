@@ -1,7 +1,7 @@
 <template>
-  <main class="border-t-4 border-t-[#13A0FA]">
-    <div class="container mx-auto px-6">
-      <Header />
+  <main class="animate-in fade-in duration-3000">
+    <Header />
+    <div class="px-12 md:px-0 max-w-5xl mx-auto">
       <Nuxt />
       <Footer />
     </div>

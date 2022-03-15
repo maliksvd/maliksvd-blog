@@ -96,12 +96,13 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxt/postcss8', '@nuxtjs/google-fonts'],
+  buildModules: ['@nuxt/postcss8', '@nuxt/image', '@nuxtjs/google-fonts'],
 
   googleFonts: {
     display: 'swap',
     families: {
-      Outfit: true,
+      Roboto: true,
+      Inter: true,
     },
   },
 

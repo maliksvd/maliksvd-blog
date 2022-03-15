@@ -1,16 +1,14 @@
 <template>
-  <div class="my-12 flex justify-between items-center w-full">
-    <NuxtLink to="/" class="focus:outline-none"
-      ><img
-        src="/avatar.jpeg"
-        width="64"
-        height="64"
-        alt="Avatar of maliksvd.dev"
-        class="animate-pulse duration-75 ease-out rounded-full w-16 h-16"
-    /></NuxtLink>
-    <div class="flex itens-center space-x-8">
-      <NuxtLink to="/articles" class="text-neutral-200">Articles</NuxtLink>
-      <NuxtLink to="/about" class="text-neutral-200">About</NuxtLink>
+  <section>
+    <div class="">
+      <nuxt-img src="header.png" class="w-full h-96" alt="" />
+      <NuxtLink to="/">
+        <nuxt-img
+          src="avatar.png"
+          class="-mt-24 transition ease-linear delay-150 animate-spin duration-3000 md:-mt-44 w-32 h-32 rounded-full mx-auto"
+          alt="Avatar of Malik"
+        />
+      </NuxtLink>
     </div>
-  </div>
+  </section>
 </template>
