@@ -1,17 +1,17 @@
 <template>
   <section>
     <article>
-      <div class="space-y-6 md:space-y-12 py-32 text-left">
-        <h1 class="text-4xl text-white md:text-6xl">
+      <div class="space-y-6 md:space-y-12 my-24 md:my-44 text-left">
+        <h1 class="text-4xl md:text-6xl font-bold text-white">
           {{ article.title }}
         </h1>
-        <p class="text-lg text-white">
+        <p class="text-xl text-white">
           Published on <strong class="font-medium">{{ formatDate(article.updatedAt) }}</strong>
         </p>
       </div>
       <nuxt-content
         :document="article"
-        class="prose prose-2xl max-w-none prose-img:rounded-xl prose-a:text-indigo-500"
+        class="prose prose-xl md:prose-2xl max-w-none prose-img:rounded-xl prose-a:text-indigo-500 prose-headings:text-4xl prose-blockquote:bg-[#161616] prose-blockquote:text-white prose-blockquote:text-lg md:prose-blockquote:text-2xl prose-strong:font-medium prose-blockquote:rounded-lg prose-blockquote:py-4 prose-blockquote:px-6 prose-code:text-white"
       />
     </article>
   </section>

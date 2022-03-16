@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-[#eaf5ea] font-normal my-16 text-center">
-    Build with NuxtJS and Tailwind CSS - maliksvd.dev
+  <footer class="text-[#eaf5ea] font-normal my-16 text-base text-center">
+    Build with NuxtJS - maliksvd.dev
   </footer>
 </template>

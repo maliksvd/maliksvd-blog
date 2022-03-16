@@ -1,25 +1,29 @@
 <template>
   <section>
-    <section class="my-44 flex flex-col space-y-6">
-      <h1 class="text-6xl font-medium text-white">Building digital respectfully & beautifully.</h1>
-      <p class="text-white font-light text-3xl">
+    <section class="my-24 md:my-44 flex flex-col space-y-6">
+      <h1 class="text-4xl md:text-6xl font-bold text-white">
+        Building digital respectfully & beautifully.
+      </h1>
+      <p class="text-white font-light text-xl md:text-3xl">
         A personal part of Internet deals with web design and web development.
       </p>
     </section>
     <section>
-      <NuxtLink to="/articles" class="text-white font-medium text-3xl">Articles </NuxtLink>
+      <NuxtLink to="/articles" class="text-white font-medium text-xl md:text-3xl"
+        >Articles
+      </NuxtLink>
       <div class="w-full my-12 grid grid-cols-1 gap-8">
         <NuxtLink
           :to="`/articles/${article.slug}`"
           v-for="article of articles"
           :key="article.slug"
-          class="bg-[#120E10] px-12 py-12 duration-300 rounded-lg focus:outline-none"
+          class="bg-[#120E10] px-6 md:px-12 py-6 md:py-12 duration-300 rounded-lg focus:outline-none"
         >
           <div class="flex flex-col space-y-4">
-            <h4 class="text-3xl font-medium text-white">
+            <h4 class="text-xl md:text-3xl font-medium text-white">
               {{ article.title }}
             </h4>
-            <p class="text-white font-light mt-4">
+            <p class="text-white text-base font-light mt-4">
               {{ article.description }}
             </p>
           </div>
@@ -27,7 +31,9 @@
       </div>
     </section>
     <section class="my-16">
-      <NuxtLink to="/articles" class="text-white font-medium text-3xl">Connect </NuxtLink>
+      <NuxtLink to="/articles" class="text-white font-medium text-xl md:text-3xl"
+        >Connect
+      </NuxtLink>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8 my-8">
         <a
           class="text-white bg-[#120E10] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
