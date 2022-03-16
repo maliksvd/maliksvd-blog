@@ -12,15 +12,15 @@
       <NuxtLink to="/articles" class="text-white font-medium text-xl md:text-3xl"
         >Articles
       </NuxtLink>
-      <div class="w-full my-12 grid grid-cols-1 gap-8">
+      <div class="w-full my-12 grid grid-cols-1 gap-16 md:gap-24">
         <NuxtLink
           :to="`/articles/${article.slug}`"
           v-for="article of articles"
           :key="article.slug"
-          class="bg-[#120E10] px-6 md:px-12 py-6 md:py-12 duration-300 rounded-lg focus:outline-none"
+          class="duration-300 rounded-lg focus:outline-none"
         >
           <div class="flex flex-col space-y-4">
-            <h4 class="text-xl md:text-3xl font-medium text-white">
+            <h4 class="text-xl md:text-2xl font-medium text-white">
               {{ article.title }}
             </h4>
             <p class="text-white text-base font-light mt-4">
