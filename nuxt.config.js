@@ -96,13 +96,24 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
-  buildModules: ['@nuxt/postcss8', '@nuxt/image', '@nuxtjs/google-fonts'],
+  buildModules: ['@nuxt/postcss8', '@nuxtjs/pwa', '@nuxt/image', '@nuxtjs/google-fonts'],
 
   googleFonts: {
     display: 'swap',
     families: {
       Roboto: true,
       Inter: true,
+    },
+  },
+  pwa: {
+    meta: {
+      title: 'Malik',
+      author: 'maliksvd',
+    },
+    manifest: {
+      name: 'Malik - Blog',
+      short_name: 'Malik',
+      lang: 'en',
     },
   },
 
