@@ -2,20 +2,20 @@
   <section>
     <section class="my-44 flex flex-col space-y-6">
       <h1 class="text-6xl font-medium text-white">Building digital respectfully & beautifully.</h1>
-      <p class="text-[#999999] font-normal text-3xl">
+      <p class="text-white font-light text-3xl">
         A personal part of Internet deals with web design and web development.
       </p>
     </section>
     <section>
       <NuxtLink to="/articles" class="text-white font-medium text-3xl">Articles </NuxtLink>
-      <div class="w-full my-12 grid grid-cols-1 gap-12 md:grid-cols-2">
+      <div class="w-full my-12 grid grid-cols-1 gap-8">
         <NuxtLink
           :to="`/articles/${article.slug}`"
           v-for="article of articles"
           :key="article.slug"
-          class="bg-[#161616] px-8 py-6 duration-300 rounded-lg focus:outline-none"
+          class="bg-[#120E10] px-12 py-12 duration-300 rounded-lg focus:outline-none"
         >
-          <div class="flex flex-col space-y-6">
+          <div class="flex flex-col space-y-4">
             <h4 class="text-3xl font-medium text-white">
               {{ article.title }}
             </h4>
@@ -30,7 +30,7 @@
       <NuxtLink to="/articles" class="text-white font-medium text-3xl">Connect </NuxtLink>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8 my-8">
         <a
-          class="text-white bg-[#161616] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
+          class="text-white bg-[#120E10] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
         >
           <svg
             width="24"
@@ -57,7 +57,7 @@
         >
         <a
           href="https://github.com/maliksvd"
-          class="text-white bg-[#161616] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
+          class="text-white bg-[#120E10] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
           ><svg
             width="24"
             height="24"
@@ -82,7 +82,7 @@
         >
         <a
           href="https://twitter.com/maliksvd"
-          class="text-white bg-[#161616] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
+          class="text-white bg-[#120E10] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
           ><svg
             width="24"
             height="24"
@@ -102,7 +102,7 @@
         >
         <a
           href="https://www.figma.com/@maliksvd"
-          class="text-white bg-[#161616] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
+          class="text-white bg-[#120E10] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
           ><svg
             width="24"
             height="24"

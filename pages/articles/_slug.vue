@@ -5,11 +5,8 @@
         <h1 class="text-4xl text-white md:text-6xl">
           {{ article.title }}
         </h1>
-        <p class="text-xl md:text-3xl text-white">
-          Published on {{ formatDate(article.updatedAt) }}
-        </p>
-        <p class="text-xl md:text-3xl text-white">
-          {{ article.description }}
+        <p class="text-lg text-white">
+          Published on <strong class="font-medium">{{ formatDate(article.updatedAt) }}</strong>
         </p>
       </div>
       <nuxt-content
