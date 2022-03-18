@@ -14,15 +14,15 @@ module.exports = {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            color: theme('colors.white'),
+            color: '#A0A0A0',
             h2: {
-              color: theme('colors.white'),
+              color: '#EDEDED',
             },
             h3: {
-              color: theme('colors.white'),
+              color: '#EDEDED',
             },
             strong: {
-              color: theme('colors.white'),
+              color: '#EDEDED',
             },
           },
         },

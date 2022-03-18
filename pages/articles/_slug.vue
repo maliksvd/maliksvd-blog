@@ -1,17 +1,17 @@
 <template>
   <section>
     <article>
-      <div class="space-y-6 md:space-y-12 my-24 md:my-44 text-left">
-        <h1 class="text-4xl md:text-6xl font-bold text-white">
+      <div class="space-y-6 md:space-y-8 my-24 md:mt-32 md:mb-24 text-left">
+        <h1 class="text-5xl font-semibold text-[#EDEDED]">
           {{ article.title }}
         </h1>
-        <p class="text-xl text-white">
-          Published on <strong class="font-medium">{{ formatDate(article.updatedAt) }}</strong>
+        <p class="text-[#A0A0A0] font-normal text-xl md:text-lg">
+          Published on {{ formatDate(article.updatedAt) }}
         </p>
       </div>
       <nuxt-content
         :document="article"
-        class="prose prose-xl md:prose-2xl max-w-none prose-img:rounded-xl prose-a:text-indigo-500 prose-headings:text-4xl prose-blockquote:bg-[#161616] prose-blockquote:text-white prose-blockquote:text-lg md:prose-blockquote:text-2xl prose-strong:font-medium prose-blockquote:rounded-lg prose-blockquote:py-4 prose-blockquote:px-6 prose-code:text-white"
+        class="prose prose-xl md:prose-lg max-w-none prose-img:rounded-xl prose-a:text-[#EDEDED] prose-headings:text-4xl prose-blockquote:bg-[#232323] prose-blockquote:text-[#A0A0A0] prose-blockquote:text-lg md:prose-blockquote:text-xl prose-strong:font-medium prose-blockquote:rounded-lg prose-blockquote:py-4 prose-blockquote:px-6 prose-code:text-[#A0A0A0]"
       />
     </article>
   </section>
@@ -113,6 +113,6 @@ export default {
 
 <style>
 pre[class*='language-'] {
-  @apply bg-[#161616]  rounded-lg text-[#eaf5ea];
+  @apply bg-[#232323]  rounded-lg text-[#EDEDED];
 }
 </style>

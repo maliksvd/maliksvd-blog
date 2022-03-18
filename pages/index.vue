@@ -1,15 +1,15 @@
 <template>
   <section>
     <section class="my-24 md:my-44 flex flex-col space-y-6">
-      <h1 class="text-4xl md:text-6xl font-bold text-white">
+      <h1 class="text-5xl font-semibold text-[#EDEDED]">
         Building digital respectfully & beautifully.
       </h1>
-      <p class="text-white font-light text-xl md:text-3xl">
+      <p class="text-[#a0a0a0] font-normal text-xl md:text-base">
         A personal part of Internet deals with web design and web development.
       </p>
     </section>
     <section>
-      <NuxtLink to="/articles" class="text-white font-medium text-xl md:text-3xl"
+      <NuxtLink to="/articles" class="text-[#EDEDED] font-medium text-xl md:text-3xl"
         >Articles
       </NuxtLink>
       <div class="w-full my-12 grid grid-cols-1 gap-16 md:gap-24">
@@ -20,10 +20,10 @@
           class="duration-300 rounded-lg focus:outline-none"
         >
           <div class="flex flex-col space-y-4">
-            <h4 class="text-xl md:text-2xl font-medium text-white">
+            <h4 class="text-xl md:text-2xl font-medium text-[#EDEDED]">
               {{ article.title }}
             </h4>
-            <p class="text-white text-base font-light mt-4">
+            <p class="text-[#A0A0A0] text-base font-light mt-4">
               {{ article.description }}
             </p>
           </div>
@@ -31,12 +31,12 @@
       </div>
     </section>
     <section class="my-16">
-      <NuxtLink to="/articles" class="text-white font-medium text-xl md:text-3xl"
+      <NuxtLink to="/articles" class="text-[#EDEDED] font-medium text-xl md:text-3xl"
         >Connect
       </NuxtLink>
       <div class="grid grid-cols-2 md:grid-cols-4 gap-8 my-8">
         <a
-          class="text-white bg-[#120E10] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
+          class="text-[#EDEDED] bg-[#232323] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
         >
           <svg
             width="24"
@@ -63,7 +63,7 @@
         >
         <a
           href="https://github.com/maliksvd"
-          class="text-white bg-[#120E10] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
+          class="text-[#EDEDED] bg-[#232323] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
           ><svg
             width="24"
             height="24"
@@ -88,7 +88,7 @@
         >
         <a
           href="https://twitter.com/maliksvd"
-          class="text-white bg-[#120E10] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
+          class="text-[#EDEDED] bg-[#232323] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
           ><svg
             width="24"
             height="24"
@@ -108,7 +108,7 @@
         >
         <a
           href="https://www.figma.com/@maliksvd"
-          class="text-white bg-[#120E10] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
+          class="text-[#EDEDED] bg-[#232323] rounded-lg px-6 py-4 flex items-center justify-center space-x-2"
           ><svg
             width="24"
             height="24"
