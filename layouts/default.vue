@@ -7,3 +7,11 @@
     </div>
   </main>
 </template>
+<script>
+export default {
+  transition: {
+    name: 'page',
+    mode: 'out-in',
+  },
+}
+</script>
